@@ -1,20 +1,21 @@
-GANs in TensorFlow Project (Google Colab)
-Overview
+**GANs in TensorFlow Project (Google Colab)**
+
+**Overview**
 This project implements a basic Generative Adversarial Network (GAN) using TensorFlow, inspired by the DigitalOcean tutorial "Implementing GANs in TensorFlow" (https://www.digitalocean.com/community/tutorials/implementing-gans-in-tensorflow). It trains a Generator to create fake handwritten digit images and a Discriminator to distinguish real images (from the MNIST dataset) from fakes, all runnable in Google Colab.
 Features
 
-Dataset: Uses the MNIST dataset of 28x28 grayscale handwritten digits.
+**Dataset**: Uses the MNIST dataset of 28x28 grayscale handwritten digits.
 Models:
 Generator: Takes random noise (100D vector) and generates 784D vectors (flattened 28x28 images).
 Discriminator: Classifies images as real or fake with a probability output.
 
 
-Training: Alternates between training the Discriminator and Generator using binary cross-entropy loss and Adam optimizers.
-Visualization: Generates and saves a 4x4 grid of sample images after each epoch.
+**Training**: Alternates between training the Discriminator and Generator using binary cross-entropy loss and Adam optimizers.
+**Visualization**: Generates and saves a 4x4 grid of sample images after each epoch.
 
-Prerequisites
+**Prerequisites**
 
-Google Colab: A free cloud-based Python environment with GPU support.
+**Google Colab**: A free cloud-based Python environment with GPU support.
 Libraries (pre-installed in Colab, but verified in code):
 TensorFlow (2.x)
 NumPy
