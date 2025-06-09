@@ -1,7 +1,9 @@
 GANs in TensorFlow (Google Colab)
+
 This project implements a basic Generative Adversarial Network (GAN) using TensorFlow, inspired by the DigitalOcean tutorial. The GAN is trained to generate handwritten digit images using the MNIST dataset. All code runs smoothly in Google Colab with GPU acceleration.
 
 🚀 Features
+
 Dataset: MNIST (28x28 grayscale images of handwritten digits)
 
 Generator:
